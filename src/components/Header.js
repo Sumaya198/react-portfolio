@@ -1,13 +1,14 @@
 import React from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import './Header.css';
+import HeaderImage from './images/bg.jpg'
 
 
 const Header = () => {
     return (
         <div>
        <header id="home">
-    <div className="container-fluid header-content" style={{backgroundImage: `url('/images/bg.jpg')`, height: '100vh'}}>
+    <div className="container-fluid header-content" style={{backgroundImage: `url(${HeaderImage})`, height: '100vh'}}>
       <div className="row">
         <div className="col text-center">
           <div className="content-box">

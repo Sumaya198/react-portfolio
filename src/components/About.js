@@ -2,6 +2,7 @@ import React from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import './About.css';
 import Footer from './Footer';
+import ProfilePic from './images/colorIMG.png'
 
 
 const About = () => {
@@ -11,7 +12,7 @@ const About = () => {
     <div className="container">
       <div className="row">
       <div className="col-lg-6 animated way-fade-up">
-          <img src="/images/colorIMG.png" className="img-fluid img-thumbnail profile-img" alt="profile"/>
+          <img src={ProfilePic} className="img-fluid img-thumbnail profile-img" alt="profile"/>
         </div>
         <div className="col-lg-6 mt-5 mt-lg-0" style={{padding: '50px'}}>
           <h2>About Me</h2>
